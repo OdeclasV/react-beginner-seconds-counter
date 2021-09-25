@@ -12,8 +12,16 @@
 
 */
 
+.trafficTop {
+    background: black;
+    width: 9%;
+    transform: rotate(
+90deg);
+    margin: 63px;
+}
+
 .lightOn {
-    box-shadow: 2px 2px 30px yellow;
+    box-shadow: 2px 2px 50px yellow;
 }
 
 .trafficLights {
