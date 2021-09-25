@@ -11,3 +11,37 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.lightOn {
+    box-shadow: 2px 2px 30px yellow;
+}
+
+.trafficLights {
+    background: black;
+    width: 10%;
+    border-radius: 20px;
+    margin: 60px;
+    padding: 5px;
+}
+.red, .yellow, .green{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 15px;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
